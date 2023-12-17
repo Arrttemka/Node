@@ -1,0 +1,19 @@
+#api-image {
+    margin-top: 20px; 
+    margin-left: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.container-image {
+   
+    display: flex; 
+    justify-content: center; 
+}
+
+.container-image img {
+    max-width: 100%;
+    border-radius: 10px; 
+}

@@ -1,0 +1,24 @@
+.joke-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Песочный цвет фона */
+    border: 2px solid #278b13; /* Коричневая рамка */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Courier New', monospace; /* Используем моноширинный шрифт для ретро-стиля */
+}
+
+.joke-setup {
+    font-size: 1.25rem; /* Увеличиваем размер шрифта (20px) с использованием относительных единиц */
+    margin-bottom: 15px; /* Увеличиваем отступ снизу */
+    color: #000000; /* Коричневый цвет текста */
+    text-transform: uppercase; /* Переводим текст в верхний регистр */
+}
+
+.joke-punchline {
+    font-size: 1rem; /* Уменьшаем размер шрифта (18px) с использованием относительных единиц */
+    color: #000000;
+    margin: 0;
+}

@@ -1,0 +1,136 @@
+/* offerList.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Светло-серый цвет фона */
+    border: 2px solid #333; /* Темно-серая рамка */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.offer-list-heading {
+    font-size: 28px; /* Размер шрифта заголовка */
+    margin-bottom: 10px;
+    color: #333; /* Темно-серый цвет текста заголовка */
+}
+
+.sort-buttons {
+    margin-bottom: 20px;
+}
+
+.sort-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333; /* Темно-серый цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.sort-buttons button:hover {
+    background-color: #555; /* Темно-серый цвет при наведении на кнопку */
+}
+
+#carcassSelect {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f8f8f8;
+    border: 2px solid #555;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    outline: none;
+}
+
+#carcassSelect::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #555;
+    border-radius: 10px;
+}
+
+#carcassSelect option {
+    background-color: #f8f8f8;
+    color: #555;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+#carcassSelect option:hover {
+    background-color: #ddd;
+}
+
+#carcassSelect option:checked {
+    background-color: #ddd;
+}
+
+#carcassSelect option:checked {
+    font-weight: bold;
+    color: #333;
+}
+
+.offer-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Используем flex-wrap для перехода на следующий ряд */
+    gap: 20px;
+}
+
+.offer-item {
+    flex: 0 0 calc(50% - 20px);
+    width: calc(50% - 20px);
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.offer-image {
+    width: 100%;
+    height: auto; /* Делаем изображение адаптивным */
+    border-radius: 4px;
+}
+
+.offer-link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.offer-link:hover {
+    color: #9b0a0a;
+}
+
+.offer-details {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.offer-cost {
+    font-size: 18px;
+    color: #555;
+    margin: 0;
+}
+
+.listOfferCenter {
+    text-align: center; /* Центрируем контейнер списка предложений */
+    margin: 0 auto;
+}

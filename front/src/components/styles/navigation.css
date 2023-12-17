@@ -1,0 +1,37 @@
+nav {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center; /* Центрируем текст внутри навигационного блока */
+    max-width: 800px; /* Увеличиваем максимальную ширину блока */
+    margin: 0 auto; /* Центрируем блок по горизонтали */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%; /* Ширина таблицы равна 100% */
+}
+
+li {
+    display: table-cell;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffe4c4;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #1d1d0f;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6e8176;
+    color: #fff;
+}
