@@ -94,6 +94,7 @@ const RegisterForm = ({ onSubmit }) => {
         <div className="form-group">
           <label>Role:</label>
           <select name="role" value={role} onChange={(e) => setRole(e.target.value)}>
+            <option value="--"></option>
             <option value="User">User</option>
             <option value="Staff">Staff</option>
           </select>
